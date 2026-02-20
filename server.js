@@ -1,7 +1,8 @@
 // ============================================
 // IMPORTS
 // ============================================
-// Branche A : Serveur Express principal
+// Serveur Express principal - Application de gestion des étudiants
+const express = require('express');
 const express = require('express');const dotenv = require('dotenv');
 const connectDB = require('./config/database');
 
